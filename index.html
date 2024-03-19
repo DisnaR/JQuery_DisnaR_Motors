@@ -3,255 +3,223 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DisnaR Motors</title>
+    <title>Cf Chacara</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./main.css">
-    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
-    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css">
 </head>
 <body>
-    <header>
-        <div class="container container-flex">
-            <h1>DisnaR Motors</h1>
-            <div class="menu-hamburger">
-                <span></span>
-                <span></span>
-                <span></span>
+    <section id="sectiontop">
+        <header>
+            <div class="container container-flex">
+                <h1>Cf Chacara</h1>
+                <div class="menu-hamburger">
+                    Menu
+                    <!-- <span></span>
+                    <span></span>
+                    <span></span> -->
+                </div>
             </div>
+            <nav>
+                <div class="container">
+                    <ul>
+                        <li><a href="#sobre-a-loja">Sobre</a></li>
+                        <li><a href="#planos">Planos</a></li>
+                        <li><a href="#horarios">Horários</a></li>
+                        <li><a href="#fotos">Galeria de Fotos</a></li>
+                        <li><a href="#contato">Contato</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <div id="carousel-imagens" class="carousel-container">
+            <img src="./images/Logo_FP.png" alt="Slide1">
+            <img src="./images/Parede1.jpg" alt="Slide2">        
         </div>
-        <nav>
-            <div class="container">
-                <ul>
-                    <li>
-                        <a href="#">Sobre</a>
-                    </li>
-                    <li>
-                        <a href="#">Em Destaque</a>
-                    </li>
-                    <li>
-                        <a href="#">Promoções</a>
-                    </li>
-                    <li>
-                        <a href="#">Contato</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-    </header>
-    <div id="carousel-imagens">
-        <img src="./images/slide1.png" alt="Carro Porsche">
-        <img src="./images/slide2.png" alt="Carro BMW">
-        <img src="./images/slide3.png" alt="Carro Ford">
-    </div>
-<section id="sobre-a-loja">
-    <div class="container container-flex">
-        <img src="./images/loja.jpg" alt="Imagem da loja DisnaR Motors">
+    </section>
+
+    <div id="sobre-a-loja" class="container container-flex">
+        <img src="./images/Danilo.jpg" class="logo-image" alt="Logo">
         <div>
-            <h2> Sobre a DisnaR Motors</h2>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            </p>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            </p>
+            <h2> Sobre Cf Chacara:</h2>
+            <p>Com o Cf Chacara, você não apenas alcançará seus objetivos de condicionamento físico, mas também os superará.</p>
+            <br>
+            <p>Nossa metodologia abrangente e adaptável garante que cada pessoa, independentemente do nível de habilidade, receba o suporte necessário para alcançar seu potencial máximo.</p>
+            <br>
+            <p>Junte-se a nós e descubra o que é possível quando você tem o Cf Chacara ao seu lado.</p>
+            <br>
+            <!-- <img src="./images/Logo_Tres_Imagens.jpg" alt="Slide2"> -->
         </div>
     </div>
-</section>
 
-<section>
-    <div class="container">
-    <h2>Em Destaque</h2>
-    <ul class="container-flex lista-veiculos">
-        <li>
-            <img src="./images/carro-bmw.png" alt="">
-            <h3>Carro BMW</h3>
-            <p>
-                Câmbio Automático, 4 Portas, Vidros e travas elétricas
-            </p>
-            <div class="price">
-                <strong>R$ 75.000,00</strong>
+    <section>
+        <div class="container" id="planos">
+            <h2>Planos:</h2>
+            
+            <div id="gratis">
+                <div class="container">
+                    <h2 class="text-center">FAÇA UMA AULA EXPERIMENTAL GRÁTIS!</h2>
+                    <button class="btn-center" href="https://app.tecnofit.com.br/tfRedirect?u=B27E65DE282C">AGENDAR</button>
+                </div>
             </div>
-            <button type="button">Tenho interesse</button>
-        </li>
-        <li class="item-central">
-            <img src="./images/carro-bmw.png" alt="">
-            <h3>Carro BMW</h3>
-            <p>
-                Câmbio Automático, 4 Portas, Vidros e travas elétricas
-            </p>
-            <div class="price">
-                <strong>R$ 75.000,00</strong>
-            </div>
-            <button type="button">Tenho interesse</button>
-        </li>
-        <li>
-            <img src="./images/carro-bmw.png" alt="">
-            <h3>Carro BMW</h3>
-            <p>
-                Câmbio Automático, 4 Portas, Vidros e travas elétricas
-            </p>
-            <div class="price">
-                <strong>R$ 75.000,00</strong>
-            </div>
-            <button type="button">Tenho interesse</button>
-        </li>
-        <li>
-            <img src="./images/carro-bmw.png" alt="">
-            <h3>Carro BMW</h3>
-            <p>
-                Câmbio Automático, 4 Portas, Vidros e travas elétricas
-            </p>
-            <div class="price">
-                <strong>R$ 75.000,00</strong>
-            </div>
-            <button type="button">Tenho interesse</button>
-        </li>
-        <li class="item-central">
-            <img src="./images/carro-bmw.png" alt="">
-            <h3>Carro BMW</h3>
-            <p>
-                Câmbio Automático, 4 Portas, Vidros e travas elétricas
-            </p>
-            <div class="price">
-                <strong>R$ 75.000,00</strong>
-            </div>
-            <button type="button">Tenho interesse</button>
-        </li>        
-    </ul>
+
+            <ul class="container-flex lista-veiculos">
+                <li class="plan-item">
+                    <img src="./images/Dan.png" alt="">
+                    <h3>Plano Mensal</h3>
+                    <p>Pagamento pelo Cartão de Crédito</p>
+                    <div class="price">
+                        <strong>R$ 435,00</strong>
+                    </div>
+                    <button class="btn-plan" type="button" data-plan="Mensal">Adquirir Mensal</button>
+                </li>
+                <li class="plan-item">
+                    <img src="./images/Dan.png" alt="">
+                    <h3>Plano Quadrimestral</h3>
+                    <p>Pagamento pelo Cartão de Crédito</p>
+                    <div class="price">
+                        <del>R$ 600,00</del>
+                        <strong>R$ 408,00</strong>
+                    </div>
+                    <button class="btn-plan" type="button" data-plan="Quadrimestral">Adquirir Quadrimestral</button>
+                </li>
+                <li class="plan-item">
+                    <img src="./images/Dan.png" alt="">
+                    <h3>Plano Semestral</h3>
+                    <p>Pagamento com Cartão de Crédito</p>
+                    <div class="price">
+                        <del>R$ 450,00</del>
+                        <strong>R$ 391,00</strong>
+                    </div>
+                    <button class="btn-plan" type="button" data-plan="Semestral">Adquirir Semestral</button>
+                </li>
+                <li class="plan-item">
+                    <img src="./images/Dan.png" alt="">
+                    <h3>Plano Semestral 3x Semana</h3>
+                    <p>Acesso entre Segunda à Sexta</p>
+                    <div class="price">
+                        <del>R$ 2.000,00</del>
+                        <strong>R$ 1.800,00</strong>
+                    </div>
+                    <button class="btn-plan" type="button" data-plan="Semestral 3x Semana">Adquirir Semestral 3x Semana</button>
+                </li>
+                <li class="plan-item">
+                    <img src="./images/Dan.png" alt="">
+                    <h3>Plano Anual</h3>
+                    <p>Acesso Livre</p>
+                    <div class="price">
+                        <del>R$ 400,00</del>
+                        <strong>R$ 361,00</strong>
+                    </div>
+                    <button class="btn-plan" type="button" data-plan="Anual">Adquirir Anual</button>
+                </li> 
+                <li class="plan-item">
+                    <img src="./images/Dan.png" alt="">
+                    <h3>Aulas Fundamentais</h3>
+                    <p>Direito a três aulas Fundamentais</p>
+                    <div class="price">                        
+                        <strong>R$ 225,00</strong>
+                    </div>
+                    <button class="btn-plan" type="button" data-plan="Aulas Fundamentais">Adquirir Aulas Fundamentais</button>
+                </li> 
+                <li class="drop-in">
+                    <img src="./images/Dan.png" alt="">
+                    <h3>Drop In</h3>
+                    <p>Direito a uma aula</p>
+                    <div class="price">                        
+                        <strong>R$ 47,00</strong>
+                    </div>
+                    <button class="btn-plan" type="button" data-plan="Drop In">Adquirir Drop In</button>
+                </li> 
+            </ul>
+        </div>
+    </section>
+
+    <div id="horarios">
+        <img src="./images/Horários.png" alt="horarios">
     </div>
-</section>
 
-<section>
-    <div class="container">
-    <h2>Promoções</h2>
-    <ul class="container-flex lista-veiculos">
-        <li>
-            <img src="./images/carro-bmw.png" alt="">
-            <h3>Carro BMW</h3>
-            <p>
-                Câmbio Automático, 4 Portas, Vidros e travas elétricas
-            </p>
-            <div class="price">
-                <del>R$ 100.000,00</del>
-                <strong>R$ 75.000,00</strong>
-            </div>
-            <button type="button">Tenho interesse</button>
-        </li>
-        <li class="item-central">
-            <img src="./images/carro-bmw.png" alt="">
-            <h3>Carro BMW</h3>
-            <p>
-                Câmbio Automático, 4 Portas, Vidros e travas elétricas
-            </p>
-            <div class="price">
-                <del>R$ 100.000,00</del>
-                <strong>R$ 75.000,00</strong>
-            </div>
-            <button type="button">Tenho interesse</button>
-        </li>
-        <li>
-            <img src="./images/carro-bmw.png" alt="">
-            <h3>Carro BMW</h3>
-            <p>
-                Câmbio Automático, 4 Portas, Vidros e travas elétricas
-            </p>
-            <div class="price">
-                <del>R$ 100.000,00</del>
-                <strong>R$ 75.000,00</strong>
-            </div>
-            <button type="button">Tenho interesse</button>
-        </li>
-        <li>
-            <img src="./images/carro-bmw.png" alt="">
-            <h3>Carro BMW</h3>
-            <p>
-                Câmbio Automático, 4 Portas, Vidros e travas elétricas
-            </p>
-            <div class="price">
-                <del>R$ 100.000,00</del>
-                <strong>R$ 75.000,00</strong>
-            </div>
-            <button type="button">Tenho interesse</button>
-        </li>
-        <li class="item-central">
-            <img src="./images/carro-bmw.png" alt="">
-            <h3>Carro BMW</h3>
-            <p>
-                Câmbio Automático, 4 Portas, Vidros e travas elétricas
-            </p>
-            <div class="price">
-                <del>R$ 100.000,00</del>
-                <strong>R$ 75.000,00</strong>
-            </div>
-            <button type="button">Tenho interesse</button>
-        </li>        
-    </ul>
-    </div>
-</section>
+    <section id="fotosgaleria">
+        <div class="container" id="fotos">
+            <h2>Galeria de Fotos:</h2>
+            <ul class="container-flex lista-veiculos">
+                <li><img src="./images/Dan.png" alt="" class="galeria-img"></li>
+                <li><img src="./images/Logo_SemFundo.png" alt="" class="galeria-img"></li>        
+                <li><img src="./images/Dan.png" alt="" class="galeria-img"></li>        
+            </ul>
+            <ul class="container-flex lista-veiculos">
+                <li><img src="./images/Logo_SemFundo.png" alt="" class="galeria-img"></li>
+                <li><img src="./images/Dan.png" alt="" class="galeria-img"></li>        
+                <li><img src="./images/Logo_SemFundo.png" alt="" class="galeria-img"></li>        
+            </ul>
+            <ul class="container-flex lista-veiculos">
+                <li><img src="./images/Dan.png" alt="" class="galeria-img"></li>
+                <li><img src="./images/Logo_SemFundo.png" alt="" class="galeria-img"></li>
+                <li><img src="./images/Dan.png" alt="" class="galeria-img"></li>                
+            </ul>
+        </div>
+    </section>
 
-<section id="contato">
-    <div class="container">
-        <h2>Entre em contato</h2>
-        <form>
-            <div class="form-campo">
-                <label for="nome">Nome:</label>
-                <input type="text" id="nome" name="nome">
+    <section id="contato">
+        <div class="container">
+            <div class="form-container">
+                <h2>Entre em contato:</h2>
+                <div id="zap">
+                    <img src="./images/WhatsApp.png" alt="horarios">
+                    <p><b>WhatsApp - (11)9449-08317</b></p>                
+                </div>
+                <div id="zap">
+                    <img src="./images/endereco.png" alt="horarios">
+                    <p><b>R. Eng. Mesquita Sampaio, 32 - Santo Amaro - São Paulo, SP</b></p>                
+                </div>
+                <!-- <form>
+                    <div class="form-campo">
+                        <label for="nome">Nome:</label>
+                        <input type="text" id="nome" name="nome">
+                    </div>
+                    <div class="form-campo">
+                        <label for="telefone">Telefone:</label>
+                        <input type="tel" id="telefone" name="telefone">
+                    </div>
+                    <div class="form-campo">
+                        <label for="email">E-mail:</label>
+                        <input type="email" id="email" name="email">
+                    </div>
+                    <div class="form-campo">
+                        <label for="veiculo-interesse">Plano de interesse:</label>
+                        <input type="text" id="veiculo-interesse" name="veiculoDeInteresse">
+                    </div>
+                    <div class="form-campo">
+                        <label for="mensagem">Mensagem:</label>
+                        <textarea id="mensagem" name="mensagem"></textarea>
+                    </div>
+                    <button type="submit">Enviar</button>
+                </form> -->
             </div>
-            <div class="form-campo">
-                <label for="telefone">Telefone:</label>
-                <input type="tel" id="telefone" name="telefone">
-            </div>
-            <div class="form-campo">
-                <label for="email">E-mail:</label>
-                <input type="email" id="email" name="email">
-            </div>
-            <div class="form-campo">
-                <label for="veiculo-interesse">Veículo de interesse:</label>
-                <input type="text" id="veiculo-interesse" name="veiculoDeInteresse">
-            </div>
-            <div class="form-campo">
-                <label for="mensagem">Mensagem:</label>
-                <textarea id="mensagem" name="mensagem"></textarea>
-            </div>
-            <button type="submit">Enviar</button>
-        </form>
-    </div>
-</section>
+        </div>
+    </section> 
 
-<footer>
-    <div class="container container-flex">
-        <p>
-            2024 &copy; DisnaR Motors - Todos os direitos reservados
-        </p>
-        <ul class="container-flex">
-            <li>
-                <a href="#">
-                    <img src="./icones/facebook.png" alt="Facebook">
-                </a>
-            </li>
-            <li>
-                <a href="#">
-                    <img src="./icones/instagram.png" alt="Instagram">
-                </a>
-            </li>
-            <li>
-                <a href="#">
-                    <img src="./icones/youtube.png" alt="Youtube">
-                </a>
-            </li>
-        </ul>
-    </div>
-</footer>
+    <footer>
+        <div class="container container-flex">
+            <p>2024 &copy; CfChacara - Todos os direitos reservados | CF CHÁCARA. CNPJ: 15.642.605-0001/53 | Website by: <b id="linkedin-btn" class="cursor-pointer">Team_DisnaR</b></p>
+            <ul class="container-flex">
+                <li><a href="#"><img src="./icones/facebook.png" alt="Facebook"></a></li>
+                <li><a href="#"><img src="./icones/instagram.png" alt="Instagram"></a></li>
+                <li><a href="#"><img src="./icones/youtube.png" alt="Youtube"></a></li>
+            </ul>
+        </div>
+    </footer>
 
-
-    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
-    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <script src="./JS/jquery.mask.min.js"></script>
     <script src="./JS/jquery.validate.min.js"></script>
     <script src="./JS/messages_pt_BR.min.js"></script>
     <script src="./JS/main.js"></script>
+
 </body>
 </html>
